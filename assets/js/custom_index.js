@@ -2,10 +2,10 @@
 
 document.getElementById("form_contact").addEventListener("submit", function (e) {
     e.preventDefault();
-    let name = document.getElementById("name").value;
-    let email = document.getElementById("email").value;
-    let subject = document.getElementById("subject").value;
-    let message = document.getElementById("message").value;
+    let name = $("#name").val();
+    let email = $("#email").val();
+    let subject = $("#subject").val();
+    let message = $("#message").val();
 
 
 

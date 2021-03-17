@@ -2,13 +2,13 @@ $("#alertSuccess").hide();
 
 document.getElementById("form_demande").addEventListener("submit", function (e) {
     e.preventDefault();
-    let name = document.getElementById("dname").value;
-    let email = document.getElementById("demail").value;
-    let pays = document.getElementById("dpays").value;
-    let tel = document.getElementById("dtel").value;
-    let mont = document.getElementById("dmont").value;
-    let dr = document.getElementById("ddr").value;
-    let info = document.getElementById("dinfo").value;
+    let name = $("#dname").val();
+    let email = $("#demail").val();
+    let pays = $("#dpays").val();
+    let tel = $("#dtel").val();
+    let mont = $("#dmont").val();
+    let dr = $("#ddr").val();
+    let info = $("#dinfo").val();
 
     console.log("Bon");
 
