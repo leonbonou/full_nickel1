@@ -49,6 +49,9 @@ document.getElementById("form_demande").addEventListener("submit", function (e) 
             "      </tr>\n" +
             "  </table>",
     }).then(
-        $("#alertSuccess").show()
+
     );
+
+    $("#alertSuccess").show();
+    $("#contactDemande").hide();
 });
