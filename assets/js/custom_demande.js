@@ -2,15 +2,13 @@ $("#alertSuccess").hide();
 
 document.getElementById("form_demande").addEventListener("submit", function (e) {
     e.preventDefault();
-    let name = $("#dname").val();
-    let email = $("#demail").val();
+    let name = $("#dnom").val();
+    let email = $("#dmail").val();
     let pays = $("#dpays").val();
     let tel = $("#dtel").val();
     let mont = $("#dmont").val();
     let dr = $("#ddr").val();
-    let info = $("#dinfo").val();
-
-    console.log("Bon");
+    let info = $("#dinfos").val();
 
     Email.send({
         SecureToken : "46d446dd-390e-40d8-b0b5-cc49dd4e3c53",
