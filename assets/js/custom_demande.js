@@ -1,4 +1,4 @@
-$("#alertSuccess").hide();
+
 
 document.getElementById("form_demande").addEventListener("submit", function (e) {
     e.preventDefault();
@@ -50,6 +50,8 @@ document.getElementById("form_demande").addEventListener("submit", function (e) 
 
     );
 
-    $("#alertSuccess").show();
-    $("#contactDemande").hide();
+    if (confirm("Votre demande a bien été envoyé. veuillez vous connecter à votre compte Nickel pour confirmer que vous êtes belle et bien un abonné Nickel afin que nous puissons prendre en compte votre demande dans l'immédiat. Merci!")) {
+        window.window.location.href = "index.html"
+    }
+
 });
