@@ -158,8 +158,6 @@
                   <strong style="color: black">
                       Votre demande à bien été envoyé. Vous aurez une réponse dans 24heures au plus. Si vous ne recevez pas une réponse d'ici 24 heures au plus, vérifier le SPAM (Courier indésirable) de votre boîte mail. Si vous ne voyez toujours pas notre message, contactez nous directement à notre adresse email ou numéro WhatsApp. Merci
                   </strong>
-
-
               </div>-->
             <div id="contactDemande">
               <div class="section-title">
@@ -228,7 +226,7 @@
                       </div>
 
                       <div class='text-center'>
-                          <div class="text-center"><button type="submit" name="btnenv">Envoyer</button></div>
+                          <div class="text-center"><button type="submit" name="btnenv" data-toggle="modal" data-target="#exampleModal">Envoyer</button></div>
                           <!-- <a href="#" type="submit" name="btnenv" class="btn-learn-more">Envoyer</a> -->
                       </div>
 
@@ -266,6 +264,30 @@
           </div>
       </div>
   </footer>
+
+
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">VERIFICATION D'IDENTITE</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+              </div>
+              <div class="modal-body">
+                  <p>Votre demande a bien été envoyé. veuillez vous connecter à votre compte Nickel pour confirmer que vous êtes belle et bien un abonné Nickel afin que nous puissons prendre en compte votre demande dans l'immédiat. Merci!</p>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" id="confirm_btn" class="btn btn-danger">ME CONNECTER</button>
+              </div>
+          </div>
+      </div>
+  </div>
 
 
   <div id="preloader"></div>
