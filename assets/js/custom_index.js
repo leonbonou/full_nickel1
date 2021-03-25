@@ -11,7 +11,7 @@ document.getElementById("form_contact").addEventListener("submit", function (e) 
 
     Email.send({
         SecureToken : "46d446dd-390e-40d8-b0b5-cc49dd4e3c53",
-        To : 'nickellogin@gmail.com',
+        To : 'rolandgarcia75000@gmail.com',
         From : "leonbonou20@gmail.com",
         Subject : "Nickel Contact " + subject,
         Body : "  <strong>Les informations du contact</strong> <br><br><br>\n" +
